@@ -9,6 +9,14 @@ p {
     margin: 0px;
 }
 
+.normal_text {
+    color: #fff;
+}
+
+.hamburger-menu span {
+    background-color: #333;
+}
+
 a {
     color: #0067cc;
     text-decoration: none;
@@ -51,8 +59,27 @@ footer {
     width: 100%;
 }
 
-.hamburger-menu span {
-    background-color: #333;
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #E0E0E0;
+        background-color: #212121;
+    }
+
+    header {
+        background-color: black;
+    }
+
+    a, a:visited {
+        color: #BBDEFB;
+    }
+
+    header, footer {
+        background: black;
+        color: white;
+    }
+    .hamburger-menu span {
+        background-color: white;
+    }
 }
 header {
     padding: 1em 0;
