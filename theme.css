@@ -3,14 +3,16 @@ body {
     color: #333;
     background-color: #fff;
     line-height: 1.6;
+    padding: 0px;
+    margin: 0px;
+}
+
+.section {
+    padding: 10px;
 }
 
 p {
     margin: 0px;
-}
-
-.normal_text {
-    color: #fff;
 }
 
 .hamburger-menu span {
@@ -27,8 +29,9 @@ a:hover {
 }
 
 .content {
-    width: 80%;
-    margin: auto;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
     overflow: hidden;
 }
 
@@ -44,42 +47,12 @@ header a {
     text-transform: uppercase;
 }
 
-@media (max-width: 700px) {
-    .content {
-        width: 95%;
-    }
-}
-
-
 footer {
     background: #f4f4f4;
     color: #333;
     text-align: center;
     padding: 20px 0;
     width: 100%;
-}
-
-@media (prefers-color-scheme: dark) {
-    body {
-        color: #E0E0E0;
-        background-color: #212121;
-    }
-
-    header {
-        background-color: black;
-    }
-
-    a, a:visited {
-        color: #BBDEFB;
-    }
-
-    header, footer {
-        background: black;
-        color: white;
-    }
-    .hamburger-menu span {
-        background-color: white;
-    }
 }
 header {
     padding: 1em 0;
